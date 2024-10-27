@@ -1,7 +1,6 @@
 # Node.js Server with JSON Data Storage
 
-This project is a server application built with Node.js and TypeScript that utilizes JSON as its data storage. It provides an API for creating, reading, updating, and deleting data stored in a JSON file.
-
+This project is a server application built with Node.js and TypeScript that utilizes JSON as its data storage. It provides an API for creating, reading, updating, and deleting data stored in a JSON file. The server also includes Swagger documentation for easy API exploration.
 ## Installation
 
 Before running the server, ensure that you have the following installed:
