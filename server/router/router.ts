@@ -7,6 +7,8 @@ const router: IRouter = express.Router();
 
 
 router.use("/data", dataRestController);
+
+// -------THE SWAGGER PATH-------
 router.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
 router.use((req, res) => {
