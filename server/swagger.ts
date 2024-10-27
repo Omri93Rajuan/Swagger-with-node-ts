@@ -1,7 +1,5 @@
 import swaggerJsdoc from 'swagger-jsdoc';
 import swaggerUi from 'swagger-ui-express';
-console.log(1);
-
 const swaggerOptions = {
     
     definition: {
@@ -13,14 +11,12 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: 'http://localhost:7070', // ודא שהפורט תואם לפורט השרת
+                url: 'http://localhost:7070', 
             },
         ],
     },
-    apis: ['./router/*.ts', './data/controllers/*.ts'], // הגדר את הנתיבים בצורה מלאה
+    apis: ['./router/*.ts', './data/controllers/*.ts'], 
 };
-console.log(2);
-
 const swaggerDocs = swaggerJsdoc(swaggerOptions);
 
 export { swaggerDocs, swaggerUi };

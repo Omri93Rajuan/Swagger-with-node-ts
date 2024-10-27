@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "name": "Shir Rajuan",
+    "email": "john.doe@example.com",
+    "password": "hashed_password_here",
+    "role": "user"
+  }
+]
